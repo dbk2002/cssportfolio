@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #add8e6; /* Light gray background */
+            color: #333; /* Dark text color */
+        }
+
+        /* Header styling */
+        header {
+            background-color: #444; /* Dark background */
+            color: white; /* White text */
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation bar styling */
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555; /* Hover effect for links */
+        }
+
+        /* Section styling */
+        section {
+            padding: 40px 20px;
+            margin: 20px;
+            background-color: white; /* White background for sections */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+        }
+
+        /* Projects section styling */
+        #projects div {
+            margin-top: 20px;
+        }
+
+        /* Contact form styling */
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #555; /* Button hover effect */
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Dhanush B K</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I’m Dhanush B K, a passionate UI/UX Designer. Welcome to my portfolio where I showcase my skills and projects.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I’ve worked on:</p>
+        <div>
+            <!-- Placeholder for project images and descriptions -->
+            <p>Project 1 - TravelBliss - Travel Website Interface:
+	       Designed a website interface for booking travel destinations, accommodations, and activities, providing a one-stop platform for travel enthusiasts.</p>
+
+            <p>Project 2 - RevTain - Reviews on Entertainment:
+	       Designed a website interface for posting reviews on games, films, and series, providing a one-stop platform for the entertainment sector</p>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+</body>
+</html>
